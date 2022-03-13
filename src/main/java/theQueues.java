@@ -1,10 +1,10 @@
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class theQueues {
     public static void main(String[] args) {
-        Queue<String> queue = new PriorityQueue<String>();
+
+        Queue<String> queue = new LinkedList<>();
         queue.add("Java");
         queue.add("PHP");
         queue.add("Python");
